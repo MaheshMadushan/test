@@ -1,0 +1,87 @@
+git --version
+git config --global user.name "name"
+git config --global user.email "email@email.com"
+git config --list(show config list)
+git help
+git config user.email
+clear
+pwd(whre we now /c/cuser/Mahesh)
+cd ~(change folder to (~) by thi(shome))
+cd..(take back one dir)
+ls(lsit all folders)
+cd Desktop
+cd 'Git hub test project'(in the folder now)
+
+TEachnical name for projct is repository
+gti init(make this folder git project-git now 
+keeping track of changing of files)
+
+ls -la(show even hidden files)
+git add .(add changes done to project folder to git.(.means directory))
+
+making commit(making a snap shot of this point time.if messed up we can come back to this point of time with message)
+git commit -m "this is our first commit"
+
+viewing commit history
+git log
+
+view commit history of specific author
+git log --author="name of author"
+
+git status( checking for files changes)
+
+viewing changes to file
+git diff(show diffrencs bet ween working area an d repo files not in statging area)
+
+comparing staging area
+git diff -- staged
+
+delete files
+git rm name1.txt
+
+renaming
+git mv name1.txt name2.txt
+
+how to move files to folders
+git mv Document.txt lovenotes/text.txt
+
+adding project to repo
+go to folder
+make it repository(git init)
+add files staging area(git add .)
+then commit(git commit -m "comment")
+
+commit directly from working area(without adding to staging area)
+git commit -am
+(it is gonna grab in working copy.not on;y one file)
+(only helpfull only editing or modigying a file.few files if you;re editing)
+
+undo changes in working area
+git checkout -- subelements.html
+
+unstage file from staging area to working copy
+git reset HEAD subelements.html
+
+{{{{{{{{{getting old project from old repo
+first > second > third > second
+(Thes are point in times)
+
+
+This is the commit in log
+{{{{{commit 95a279df288accf967ed9f0d501a95e26bda275f
+Author: Mahesh Madushan <madu140@gmail.com>
+Date:   Sat Mar 7 10:07:20 2020 +0530}}}}}}
+
+git checkout 95a279 -- (file we want)}}}}}}}}
+
+making connection to github to local computer
+git remote <nick name for prjetc to upload to public in git hub> https://github.com/MaheshMadushan/test.git
+git remote(shows nickname)
+pushing files to server
+git push -u(take allfiel in learn html) master
+
+BRANCH
+is a copy of main repo
+
+
+
